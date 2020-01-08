@@ -53,7 +53,7 @@ docker logs -f pingfederate
 ```
 
 If using the command above with the embedded [server profile](../server-profiles/README.md), log in with: 
-* https://localhost:9999/pingfederate/app
+* https://morgan.ping-eng.com:9999/pingfederate/app
   * Username: Administrator
   * Password: 2FederateM0re
 ## Docker Container Hook Scripts

@@ -17,7 +17,7 @@ docker run -d \
        --name pingdataconsole \
        pingidentity/pingdataconsole
 
-open https://localhost:8443/console
+open https://morgan.ping-eng.com:8443/console
 ```
 
 If you are using the PingDirectory container from these standalone images, you can login with the following credentials

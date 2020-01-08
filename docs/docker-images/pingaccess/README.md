@@ -55,7 +55,7 @@ docker logs -f pingaccess
 ```
 
 If using the command above with the embedded [server profile](../server-profiles/README.md), log in with: 
-* https://localhost:9000
+* https://morgan.ping-eng.com:9000
   * Username: Administrator
   * Password: 2FederateM0re
 ## Docker Container Hook Scripts

@@ -106,7 +106,7 @@ Steps:
       2019-09-12 22:23:28,321  INFO  [com.pingidentity.appserver.jetty.PingFederateInit] PingFederate started in 9s:843ms
    ```
 
-8. Finally, browse to `https://localhost:9999/pingfederate/app`
+8. Finally, browse to `https://morgan.ping-eng.com:9999/pingfederate/app`
 
 ## Some additional notes regarding persistence and ongoing usage:
 

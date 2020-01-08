@@ -1151,7 +1151,7 @@
 
         <!-- EMail events to an administrator
         <SMTP name="SMTP" subject="PingFederate Server Errors" to="admin@myhost.domain.com" from="nobody@myhost.domain.com"
-          smtpHost="localhost" smtpPort="25" bufferSize="10">
+          smtpHost="morgan.ping-eng.com" smtpPort="25" bufferSize="10">
             <PatternLayout>
                 <pattern>[%d{ABSOLUTE},%c{1}] %m%n</pattern>
             </PatternLayout>
@@ -1159,7 +1159,7 @@
         -->
 
         <!-- Syslog events - Custom pattern
-        <Socket name="SYSLOG" host="localhost" port="514" protocol="UDP">
+        <Socket name="SYSLOG" host="morgan.ping-eng.com" port="514" protocol="UDP">
             <PingSyslogLayout facility="LOCAL7">
                 <PatternLayout>
                     <pattern>[%d{ABSOLUTE},%c{1}] %m%n</pattern>

@@ -55,6 +55,6 @@ POST_INSTRUCTIONS="
 
 # After server starts, goto:
 
-     Admin Console:  https://localhost:${PORT_ADMIN}/pingfederate/app
+     Admin Console:  https://morgan.ping-eng.com:${PORT_ADMIN}/pingfederate/app
 
 "

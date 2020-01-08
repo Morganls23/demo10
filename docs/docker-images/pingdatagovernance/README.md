@@ -70,7 +70,7 @@ some resoruces are configured.
 
 |                 |                                   |
 | --------------: | --------------------------------- |
-| URL             | https://localhost:8443/scim/v2/Schemas |
+| URL             | https://morgan.ping-eng.com:8443/scim/v2/Schemas |
 | Username        | cn=administrator                  |
 | Password        | 2FederateM0re                     |
 

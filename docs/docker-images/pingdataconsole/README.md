@@ -32,7 +32,7 @@ docker logs -f pingdataconsole
 ```
 
 If using the command above with the embedded [server profile](../server-profiles/README.md), log in with: 
-* http://localhost:8443/console/login
+* http://morgan.ping-eng.com:8443/console/login
 ```
 Server: pingdirectory
 Username: administrator

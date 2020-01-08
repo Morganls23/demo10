@@ -65,6 +65,6 @@ POST_INSTRUCTIONS="
 
 # or go to Directory REST API
 
-  https://localhost:1443/directory/v1/ou=people,dc=example,dc=com/subtree?searchScope=wholesubtree
+  https://morgan.ping-eng.com:1443/directory/v1/ou=people,dc=example,dc=com/subtree?searchScope=wholesubtree
 
 "

@@ -46,6 +46,6 @@ DOCKER_OPTIONS="
 #################################################################################
 POST_INSTRUCTIONS="
 
-# After the container starts, goto:  https://localhost:9022/
+# After the container starts, goto:  https://morgan.ping-eng.com:9022/
 
 "

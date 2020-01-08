@@ -98,26 +98,26 @@ Watch and wait for containers to be healthy:
 - `watch "docker container ls --format 'table {{.Names}}\t{{.Status}}'"`
 
 Once a container is healthy, you can see and log-in to it's admin UI. 
-> If on VM, use IP instead of localhost
+> If on VM, use IP instead of morgan.ping-eng.com
 
 PingDataConsole - For Directory
-  Console URL: https://localhost:8443/console
+  Console URL: https://morgan.ping-eng.com:8443/console
   Server: pingdirectory
   User: Administrator
   Password: 2FederateM0re
 
 PingFederate:
-  Console URL: https://localhost:9999/pingfederate/app
+  Console URL: https://morgan.ping-eng.com:9999/pingfederate/app
   User: Administrator
   Password: 2FederateM0re
 
 PingAccess
-  Console URL: https://localhost:9000
+  Console URL: https://morgan.ping-eng.com:9000
   User: Administrator
   Password: 2FederateM0re
 
 PingDataConsole - For DataGovernance
-  Console URL: https://localhost:8443/console
+  Console URL: https://morgan.ping-eng.com:8443/console
   Server: pingdatagovernance
   User: Administrator
   Password: 2FederateM0re

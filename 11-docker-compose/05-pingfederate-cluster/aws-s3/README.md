@@ -32,7 +32,7 @@ Once you see that the containers are healthy in `docker ps`
 
 To see the PingFederate management console
 
-* Go to [https://localhost:9999/pingfederate/app](https://localhost:9999/pingfederate/app)
+* Go to [https://morgan.ping-eng.com:9999/pingfederate/app](https://morgan.ping-eng.com:9999/pingfederate/app)
 * Log in with `Administrator / 2FederateM0re`
 
 ## Cleaning up

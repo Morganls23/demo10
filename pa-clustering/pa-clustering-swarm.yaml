@@ -4,7 +4,7 @@ services:
   pingaccess:
     image: pingidentity/pingaccess:pingaccess:5.2.3-edge
     healthcheck: 
-      test: ["CMD", "curl", "-f", "-k", "https://localhost:9000/pa/heartbeat.ping"]
+      test: ["CMD", "curl", "-f", "-k", "https://morgan.ping-eng.com:9000/pa/heartbeat.ping"]
       interval: 10s
       timeout: 3s
     environment:
@@ -30,7 +30,7 @@ services:
     image: pingidentity/pingaccess:pingaccess:5.2.3-edge
     command: ["sh", "-c", "wait-for pingaccess:9000 -t 420 -- entrypoint.sh start-server"]
     healthcheck: 
-      test: ["CMD", "curl", "-f", "-k", "https://localhost:3000/pa/heartbeat.ping"]
+      test: ["CMD", "curl", "-f", "-k", "https://morgan.ping-eng.com:3000/pa/heartbeat.ping"]
       interval: 10s
       timeout: 3s    
     environment:

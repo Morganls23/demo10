@@ -50,7 +50,7 @@ In this walkthrough example, we’ll cover how to stand up a PingFederate cluste
 1. In your terminal, navigate to the `12-docker-swarm` folder
 1. Start the swarm services `$ docker service init`
 1. Deploy the yaml file `$ ./swarm-start.sh pingfederate_clustering_with_S3_discovery.yaml`
-1. Once all services have launched, open your browser and navigate to `https://localhost:9999/pingfederate/app`
+1. Once all services have launched, open your browser and navigate to `https://morgan.ping-eng.com:9999/pingfederate/app`
 1. Click on `System->Cluster Management`
 1. You should now see that your Engine node has attached to the Admin Console
  ![Cluster Management Console](../../docs/images/PF_CLUSTER_CONSOLE.png)

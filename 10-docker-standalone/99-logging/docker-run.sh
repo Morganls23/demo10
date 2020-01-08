@@ -84,10 +84,10 @@ echo
 echo
 echo
 echo check elastic search status at
-echo curl localhost:9200/_cat/health?v
+echo curl morgan.ping-eng.com:9200/_cat/health?v
 echo 
 echo To check that logstash is inded getting log messages, use
 echo docker logs -f logstash
 echo
 echo Access Kibana dashboad at
-echo http://localhost:5601/
+echo http://morgan.ping-eng.com:5601/

@@ -49,4 +49,4 @@ ENCRYPTION_PASSWORD_FILE=${ROOT_USER_PASSWORD_FILE}
 # This is optional and will default to tailing access log
 #TAIL_LOG_FILES="/opt/out/instance/logs/access /opt/out/instance/logs/audit"
 #
-PD_DELEGATOR_PUBLIC_HOSTNAME=localhost
+PD_DELEGATOR_PUBLIC_HOSTNAME=morgan.ping-eng.com

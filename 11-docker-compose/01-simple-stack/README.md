@@ -19,18 +19,18 @@ At this point you should see docker-compose create the services for a PingFedera
 
 Once the PingDirectory instance is up,
 
-* Go to [https://localhost:9031/OAuthPlayground](https://localhost:9031/OAuthPlayground)
+* Go to [https://morgan.ping-eng.com:9031/OAuthPlayground](https://morgan.ping-eng.com:9031/OAuthPlayground)
 * Click on `implicit` 
 * Log in with `user.0 / 2FederateM0re`
 
 To see the PingFederate management console
 
-* Go to [https://localhost:9999/pingfederate/app](https://localhost:9999/pingfederate/app)
+* Go to [https://morgan.ping-eng.com:9999/pingfederate/app](https://morgan.ping-eng.com:9999/pingfederate/app)
 * Log in with `Administrator / 2FederateM0re`
 
 To see the PingDirectory management console
 
-* Go to [https://localhost:8443/console](https://localhost:8443/console)
+* Go to [https://morgan.ping-eng.com:8443/console](https://morgan.ping-eng.com:8443/console)
 * Log in with:
   * Server: `pingdirectory`
   * Username: `Administrator`
@@ -38,7 +38,7 @@ To see the PingDirectory management console
 
 PingDirectory exposes LDAP traffic via an LDAPS port 1636.
 
-* Navigate to [https://localhost:1636/dc=example,dc=com](https://localhost:1636/dc=example,dc=com)
+* Navigate to [https://morgan.ping-eng.com:1636/dc=example,dc=com](https://morgan.ping-eng.com:1636/dc=example,dc=com)
 
 ## Cleaning up
 

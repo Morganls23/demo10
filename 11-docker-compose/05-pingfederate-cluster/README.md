@@ -27,7 +27,7 @@ To stand up multiple PingFederate engine nodes, run compose with the `--scale` a
 ## Verify
 Once the admin is up, you can check cluster status via the console or with:
 ```shell
-curl -u administrator:2FederateM0re -k 'https://localhost:9999/pf-admin-api/v1/cluster/status' \
+curl -u administrator:2FederateM0re -k 'https://morgan.ping-eng.com:9999/pf-admin-api/v1/cluster/status' \
 --header 'x-xsrf-header: PingFederate'
 ```
 You should see similar to:
@@ -41,7 +41,7 @@ To replicate configuration accross your cluster, login to the Administrator Cons
 
 You can perform this action via the API by running the command:
 ```shell
-curl -X POST -u administrator:2FederateM0re -k 'https://localhost:9999/pf-admin-api/v1/cluster/replicate' \
+curl -X POST -u administrator:2FederateM0re -k 'https://morgan.ping-eng.com:9999/pf-admin-api/v1/cluster/replicate' \
 --header 'x-xsrf-header: PingFederate'
 ```
 You should receive the response
@@ -77,7 +77,7 @@ Once you see that the containers are healthy in `docker ps`
 
 To see the PingFederate management console
 
-* Go to [https://localhost:9999/pingfederate/app](https://localhost:9999/pingfederate/app)
+* Go to [https://morgan.ping-eng.com:9999/pingfederate/app](https://morgan.ping-eng.com:9999/pingfederate/app)
 * Log in with `Administrator / 2FederateM0re`
 
 ## Cleaning up

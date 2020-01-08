@@ -3,7 +3,7 @@
   "data": {
       "acmeDefaultServer": {
           "id": "8572f98e-482e-41c2-8a3d-6a0b2fc99734",
-          "location": "https://localhost:9000/pa-admin-api/v3/acme/servers/8572f98e-482e-41c2-8a3d-6a0b2fc99734"
+          "location": "https://morgan.ping-eng.com:9000/pa-admin-api/v3/acme/servers/8572f98e-482e-41c2-8a3d-6a0b2fc99734"
       },
       "acmeServers": [
           {
@@ -461,7 +461,7 @@
       "virtualHosts": [
           {
               "id": 3,
-              "host": "localhost",
+              "host": "morgan.ping-eng.com",
               "port": 3000,
               "agentResourceCacheTTL": 900,
               "keyPairId": 0,
@@ -485,7 +485,7 @@
           },
           {
               "id": 6,
-              "host": "localhost",
+              "host": "morgan.ping-eng.com",
               "port": 9031,
               "agentResourceCacheTTL": 900,
               "keyPairId": 0,
@@ -501,7 +501,7 @@
           },
           {
               "id": 8,
-              "host": "localhost",
+              "host": "morgan.ping-eng.com",
               "port": 443,
               "agentResourceCacheTTL": 900,
               "keyPairId": 0,

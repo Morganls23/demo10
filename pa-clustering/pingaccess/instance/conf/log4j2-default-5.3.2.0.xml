@@ -648,7 +648,7 @@
         <!-- To use, uncomment the appenderRef under "com.pingidentity" Logger -->
 
         <!-- Syslog events - Custom pattern
-        <Socket name="SYSLOG" host="localhost" port="514" protocol="UDP">
+        <Socket name="SYSLOG" host="morgan.ping-eng.com" port="514" protocol="UDP">
             <PingSyslogLayout facility="LOCAL0">
                 <PatternLayout>
                     <pattern>%d{ABSOLUTE} %5p %c:%L - %m%n</pattern>

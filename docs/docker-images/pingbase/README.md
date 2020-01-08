@@ -62,11 +62,11 @@ this image.
 | ORCHESTRATION_TYPE  |   | The type of orchestration tool used to run the container, normally set in the deployment (.yaml) file.  Expected values include: - compose - swarm - kubernetes Defaults to blank (i.e. No type is set) 
 | USER_BASE_DN  | dc=example,dc=com  | 
 | DOLLAR  | '$'  | 
-| PD_ENGINE_PUBLIC_HOSTNAME  | localhost  | 
-| PF_ENGINE_PUBLIC_HOSTNAME  | localhost  | 
-| PF_ADMIN_PUBLIC_HOSTNAME  | localhost  | 
-| PA_ENGINE_PUBLIC_HOSTNAME  | localhost  | 
-| PA_ADMIN_PUBLIC_HOSTNAME  | localhost  | 
+| PD_ENGINE_PUBLIC_HOSTNAME  | morgan.ping-eng.com  | 
+| PF_ENGINE_PUBLIC_HOSTNAME  | morgan.ping-eng.com  | 
+| PF_ADMIN_PUBLIC_HOSTNAME  | morgan.ping-eng.com  | 
+| PA_ENGINE_PUBLIC_HOSTNAME  | morgan.ping-eng.com  | 
+| PA_ADMIN_PUBLIC_HOSTNAME  | morgan.ping-eng.com  | 
 | ROOT_USER_DN  | cn=administrator  | the default administrative user for PingData 
 | PATH  | ${BASE}:${SERVER_ROOT_DIR}/bin:${PATH}  | 
 | ENV  | ${BASE}/.profile  | 

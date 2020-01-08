@@ -34,11 +34,11 @@ Once you see that the containers are healthy in `docker ps`
 You can check the engines were successfully added with: 
 ```
 curl -k -u administrator:2FederateM0re -H 'X-XSRF-Header: PingAccess'  http
-s://localhost:9000/pa-admin-api/v3/engines
+s://morgan.ping-eng.com:9000/pa-admin-api/v3/engines
 ```
 Or via the PingAccess management console:
 
-  1. Go to [https://localhost:9000](https://localhost:9999)
+  1. Go to [https://morgan.ping-eng.com:9000](https://morgan.ping-eng.com:9999)
   2. Log in with `Administrator / 2FederateM0re`
   3. Then System>Clustering (choose discard changes if alert pops up)
 

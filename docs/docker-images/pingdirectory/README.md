@@ -25,7 +25,7 @@ this image.
 | REPLICATION_PORT  | 8989  | Default PingDirectory Replication Port 
 | ADMIN_USER_NAME  | admin  | Replication administrative user 
 | STARTUP_COMMAND  | ${SERVER_ROOT_DIR}/bin/start-server  | 
-| PD_DELEGATOR_PUBLIC_HOSTNAME  | localhost  | Public hostname of the DA app 
+| PD_DELEGATOR_PUBLIC_HOSTNAME  | morgan.ping-eng.com  | Public hostname of the DA app 
 | STARTUP_FOREGROUND_OPTS  | --nodetach  | Adding lockdown mode so non administrive connections be made until server has been started with replication enabled 
 | STARTUP_BACKGROUND_OPTS  |   | Adding lockdown mode so non administrive connections be made until server has been started with replication enabled 
 | ROOT_USER_PASSWORD_FILE  | ${SECRETS_DIR}/root-user-password  | 
@@ -96,7 +96,7 @@ Connection a REST client from Postman or a browser using the default ports and c
 
 |                 |                                   |
 | --------------: | --------------------------------- |
-| URL             | https://localhost:8443/scim/Users |
+| URL             | https://morgan.ping-eng.com:8443/scim/Users |
 | Username        | cn=administrator                  |
 | Password        | 2FederateM0re                     |
 

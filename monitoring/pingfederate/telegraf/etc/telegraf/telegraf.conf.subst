@@ -18,7 +18,7 @@
   # default_field_separator = "."
 
   # Add agents URLs to query
-  urls = ["http://localhost:9031/jolokia"]
+  urls = ["http://morgan.ping-eng.com:9031/jolokia"]
   # username = ""
   # password = ""
   response_timeout = "3s"

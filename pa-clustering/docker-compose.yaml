@@ -6,7 +6,7 @@ services:
     deploy:
       replicas: 1    
     healthcheck:
-      test: ["CMD-SHELL", "curl -s -u administrator:2FederateM0re -H \"X-XSRF-Header: PingAccess\" -k https://localhost:9000/pa-admin-api/v3/sites | jq -e '.items[0].name' "]
+      test: ["CMD-SHELL", "curl -s -u administrator:2FederateM0re -H \"X-XSRF-Header: PingAccess\" -k https://morgan.ping-eng.com:9000/pa-admin-api/v3/sites | jq -e '.items[0].name' "]
       interval: 10s
       timeout: 3s    
     environment: 

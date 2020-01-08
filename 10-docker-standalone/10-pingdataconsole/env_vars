@@ -33,6 +33,6 @@ POST_INSTRUCTIONS="
 
 # For server started:
 
-     Admin Console:  https://localhost:8443/
+     Admin Console:  https://morgan.ping-eng.com:8443/
 
 "

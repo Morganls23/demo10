@@ -347,7 +347,7 @@ javax.net.ssl.sessionCacheSize=5000
 #http.proxyPort=<HTTP_PROXY_PORT>
 #https.proxyHost=<HTTPS_PROXY_HOST>
 #https.proxyPort=<HTTPS_PROXY_PORT>
-#http.nonProxyHosts=*.internal.com|localhost
+#http.nonProxyHosts=*.internal.com|morgan.ping-eng.com
 
 # This property determines whether PingFederate omits line breaks in XML digital signatures. Default is true.
 org.apache.xml.security.ignoreLineBreaks=true

@@ -20,7 +20,7 @@ Watch the directories initialize with:
 
 To see the PingDirectory management console
 
-* Go to [https://localhost:8443/console](https://localhost:8443/console)
+* Go to [https://morgan.ping-eng.com:8443/console](https://morgan.ping-eng.com:8443/console)
 * Log in with `Administrator / 2FederateM0re`
 
 > Note: The admin console is running in the pingdataconsole_1 container, not pingdirectory.
