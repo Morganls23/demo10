@@ -33,7 +33,9 @@
      authentication, etc. For each item, the name of the item maps
      to the alias of a private key and the value of the item is the
      password to that particular key-->
-    <map name="SslPrivateKeyPasswords"/>
+    <map name="SslPrivateKeyPasswords">
+        <item name="s0mq34uy8lm07ijys76li2hpd">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ..qQ-sAvXTyb_omkr5TWfj0g.UK2IOrzP9aCcaFv0OE61T2QR56fEoJxFRqQRLP_1De8.8-Wp3TaXR7SNr-RnBGLVCQ</item>
+    </map>
     <!--SSL HSM Keystore information: name and password-->
     <item name="SslHSMKeystoreName">ping-ssl.hsmks</item>
     <item name="SslHSMKeystorePassword"/>
@@ -57,6 +59,7 @@
          password to that particular key-->
     <map name="SslServerPrivateKeyPasswords">
         <item name="t9vezrmnn5ntdoq6bzfzbtg0j">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiI5LjIuMi4wIn0..PmClS5RqF0WD30fyGahbsw.5Sq6ky_fgrz2tcYXQVH0_8lLYGlXKYNQb4Qre07dr2Y.mqQ9H-1qbys8hnHAtzyzVw</item>
+        <item name="eh9qnvp6szoxuxmvot3lrm8ho">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ..cfkOSIOP7_0qnBIqn8xGoA.JHPGHRLs1lTY5MEZ_BTt1q5lEND0bjuHXbiIm9in6c8.fYULONTkFJlrZvWFd46lQA</item>
     </map>
     <!--SSL HSM Server Keystore information: name and password-->
     <item name="SslServerHSMKeystoreName">ping-ssl-server.hsmks</item>
