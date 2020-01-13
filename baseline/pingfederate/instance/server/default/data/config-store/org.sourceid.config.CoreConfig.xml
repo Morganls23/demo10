@@ -12,6 +12,7 @@
      password to that particular key.-->
     <map name="DsigPrivateKeyPasswords">
         <item name="v8m5h9qrw85dgmndgv47k76xz">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiI5LjIuMC4xMCJ9..lnQoasV2J29-6KtVWlIWLQ.5of9PpT1aJtyrjWAX_LTz3SfghNxIFBLmU8_8tne0rU.FL732jjTyz1sTcAu9Msi2A</item>
+        <item name="1ugpwt5pvtgaiafd39zidk84j">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ..J_pDQJGFNDU238M7q3MZhg.dUPn5PdX5ttORELjJElvykgqVgkNk4ZEy1ze930XVgM.UPUU00N4VLQENjRaChkCmg</item>
     </map>
     <!--DSIG HSM Keystore information: name and password-->
     <item name="DsigHSMKeystoreName">ping-dsig.hsmks</item>
