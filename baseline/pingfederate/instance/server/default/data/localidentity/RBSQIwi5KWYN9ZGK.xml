@@ -4,6 +4,9 @@
         <loc:auth-source id="fZk2E0iVJwibVd15" name="Facebook">
             <loc:update-policy attributeStorageEnabled="false" retainAttributes="false" updateAttributes="false" updateInterval="0.0"/>
         </loc:auth-source>
+        <loc:auth-source id="6YLSVzTxrJlxC3R9" name="Google">
+            <loc:update-policy attributeStorageEnabled="false" retainAttributes="false" updateAttributes="false" updateInterval="0.0"/>
+        </loc:auth-source>
     </loc:auth-sources>
     <loc:fields maskOgnlValues="false">
         <loc:field type="EMAIL" default-value="" id="mail" label="Email address">

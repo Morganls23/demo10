@@ -5,4 +5,5 @@
     <con:map name="PF-DEMO"/>
     <con:map name="AgentlessIDP"/>
     <con:map name="AgentlessSP"/>
+    <con:map name="https://accounts.google.com"/>
 </con:config>

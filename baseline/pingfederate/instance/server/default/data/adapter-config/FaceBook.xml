@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urn:AdapterConfiguration authnCtxClassRef="" isInheritAttributeSettings="false" isInheritAttributeMapping="false" maskOgnlValues="false" isInheritExtendedContractAttributes="false" name="FaceBook" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
     <urn:Fields>
-        <urn:Field name="Application ID">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ.._R8z61Csx8y10_h_0HLbzw.snn74ai9tXSDYelmG929_gfylxUsOGH-rsj-JkOpxfs.UFS3PMPPRXb6j-u3pFtQdg</urn:Field>
-        <urn:Field name="Application Secret">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ..UOwdARDbzlCXpSTt6L7NRg.BgKgFkXra8P89bxlFu_MgPz7akLsYeOyTofCt5Hf460Gxst8-hiuKanV7oRdQMYQ.tknDcCwggby7egGjwKTEzw</urn:Field>
+        <urn:Field name="Application ID">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ..aR7J5NCD2OZOPXLCWhY7_g.K0mTxWIOtsJg9xCeb9Ca3cZcGJ3C26sWlKlN9vTtk_8.Rq48DCuZ0XJ8uwoiNM8rag</urn:Field>
+        <urn:Field name="Application Secret">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ..u-j3f8ASycq_v5JotKMMdQ.0NQlFl0jxRL8_iYWk6m9U_RqehtRYKZXLq6fphVTIUvjwp15UIEH2rIrdKBjgM0E.uh0ZqoJDwxyceLrYO8gbYw</urn:Field>
         <urn:Field name="Site URL">https://morgan.ping-eng.com:9031/ext/facebook-authn/</urn:Field>
         <urn:Field name="Error Redirect URL"/>
         <urn:Field name="Logout URL">https://www.facebook.com/logout.php</urn:Field>
@@ -17,10 +17,19 @@
         <urn:Field name="Facebook User Data URL">https://graph.facebook.com/me</urn:Field>
     </urn:AdvancedFields>
     <urn:Tables>
-        <urn:Table name="Scope Permissions"/>
+        <urn:Table name="Scope Permissions">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Additional Facebook Scope Permission">email</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Additional Facebook Scope Permission">public_profile</urn:Field>
+            </urn:Row>
+        </urn:Table>
     </urn:Tables>
-    <urn:ExtendedContractAttributes/>
-    <urn:UniqueKeyField>id</urn:UniqueKeyField>
+    <urn:ExtendedContractAttributes>
+        <urn:AttributeName>email</urn:AttributeName>
+    </urn:ExtendedContractAttributes>
+    <urn:UniqueKeyField>email</urn:UniqueKeyField>
     <urn:AttributeMapping>
         <urn1:AttributeMap Name="updated_time" Type="Adapter" Value="updated_time" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:AttributeMap Name="gender" Type="Adapter" Value="gender" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
@@ -37,6 +46,7 @@
         <urn1:AttributeMap Name="name" Type="Adapter" Value="name" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:AttributeMap Name="id" Type="Adapter" Value="id" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:AttributeMap Name="first_name" Type="Adapter" Value="first_name" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="email" Type="Adapter" Value="email" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:AttributeMapping>
 </urn:AdapterConfiguration>
